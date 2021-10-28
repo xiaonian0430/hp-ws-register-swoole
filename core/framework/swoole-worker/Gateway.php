@@ -20,10 +20,10 @@ use HP\Swoole\Library\SockServer;
 class Gateway extends Service
 {
     public $register_host = '127.0.0.1';
-    public $register_port = 9327;
+    public $register_port = 1236;
 
     public $lan_host = '127.0.0.1';
-    public $lan_port = 9108;
+    public $lan_port = 2300;
 
     protected $inner_server;
 
